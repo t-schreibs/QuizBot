@@ -103,13 +103,15 @@ So, {name}, we're getting near the end now. How are you feeling?
     Ah, a wrong answer, folks - that was a tough one.
 * I have no idea. I don't even know why I'm here.
     Ah, a wrong answer, folks - that was a tough one.
-- Well, well, would you look at the time. It would appear that it is time for our FINAL QUESTION!
+- Well, well, would you look at the time. 
+(The robot glances at an imaginary watch.)
+With a score of {score} out of 7, it would appear that it is time for {name} to answer our FINAL QUESTION!
 (The crowd chants "FINAL!" over and over. It sounds threatening.)
 This question could change everything, {name}! It's worth 3 points!
 (The crowd is bewildered by a 3-point question.)
-That's right! 3 points! Are you ready for your final question?
+That's right! 3 points! Are you ready for the final question?
 * Yes
-    Good! Let's get to it, then.
+    Excellent! Let's get to it, then.
 * No
     Oh! Well, no matter. I'm going to ask it anyways.
 - Did you have fun today?

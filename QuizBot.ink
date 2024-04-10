@@ -64,10 +64,64 @@ Hm, I can tell by your face that you thought that was a quiz question - didn't y
 (The robot pauses for a second or two, and then continues.)
 Listen, I think it might be time for a BONUS ROUND!
 (The crowd cheers.)
-
+Bonus rounds are a chance for you to rack up some SERIOUS POINTS!
+(The robot's voice is booming. The robot is huge.)
+You have a couple pet cats back home, is that right?
+* Yep, that's right.
+* No, I don't.
+    Why would you lie to me, {name}? It says right here in your file that you have two cats.
+    (The audience is astounded.)
+- Which of your two cats is better at playing fetch?
+    * Mama
+        Yikes, another wrong answer, everyone. It says right here that Mama is NOT GOOD AT DROPPING THE BALL WHERE YOU CAN REACH IT! Would you believe that?
+        (The crowd cannot believe that.)
+    * Marlow
+        ~ score += 1
+        That's correct! It says right here that Marlow is good at dropping her toy right into your hand! Amazing.
+        (The crowd is in awe of Marlow.)
+- Next question! Which of your two cats is better at eating food?
+    * Mama
+        ~ score += 1
+        Good work! Mama is much better about eating, and does so politely! Too good at it, in fact!
+        (The crowd laughs, way too hard.)
+    * Marlow
+        Ooh, that's incorrect, sorry. Marlow is no good at eating food, and she actually goes out of her way to block Mama's access to her dish! Unbelievable!
+        (The crowd boos Marlow.)
+- And finally! Which of your two cats is more likely to make it to the cat olympics?
+    * Mama
+        ~ score += 1
+        That's right! Despite her clumsiness, you can tell that Mama is willing to put in the work!
+    * Marlow
+        Ooh, sorry - that's a wrong answer. Marlow might appear to be more athletic, but she's definitely not willing to put in the work.
+- Wow, just WOW! What an exciting bonus round that was. {name} here now has a score of {score} out of 6.
+(The crowd cheers.)
+So, {name}, we're getting near the end now. How are you feeling?
+* Confident!
+    ~ score += 1
+    That's what we like to hear! I'll give you a point for that.
+* A little confused, actually.
+    Ah, a wrong answer, folks - that was a tough one.
+* I have no idea. I don't even know why I'm here.
+    Ah, a wrong answer, folks - that was a tough one.
+- Well, well, would you look at the time. It would appear that it is time for our FINAL QUESTION!
+(The crowd chants "FINAL!" over and over. It sounds threatening.)
+This question could change everything, {name}! It's worth 3 points!
+(The crowd is bewildered by a 3-point question.)
+That's right! 3 points! Are you ready for your final question?
+* Yes
+    Good! Let's get to it, then.
+* No
+    Oh! Well, no matter. I'm going to ask it anyways.
+- Did you have fun today?
+* No, of course not. []I was held here against my will.
+-
+(The robot looks furious for a moment, and then regains its composure. It walks toward you, towering above you.)
+(It leans down to place its face right in front of yours and whispers.)
+Wrong... answer...
+(It returns to its seat. The crowd is silent.)
 Ok, all, it's time for the final results! {name} here has earned a total of {score} points, which is...
 (A silly little drumroll.)
-...exactly 6 less than the {score + 6} she needed to win the game. How sad! You hate to see it, you hate to see it.
+...exactly 3 less than the {score + 3} she needed to win the game. How sad! You hate to see it, you hate to see it.
 (The robot shakes its head. The robot is disappointed.)
 Well, you know what that means! It's time to...
 PULL THE LEVER!
@@ -79,8 +133,8 @@ PULL THE LEVER!
 (You're unharmed but shaken up a bit.)
 (There is a pipe dripping in the distance.)
 (The air is cold.)
-...
-Oh, yes, um - hello there!
+* ...
+- Oh, yes, um - hello there!
 (You didn't realize somebody else was in here.)
 So, it didn't go so well upstairs, did it?
 (Or, someTHING?)
@@ -108,8 +162,38 @@ _ _____ know ____ __ __ _ut _____ I ___ ____ ____ ___ main_____?
 Anyways - maybe I can help you get out of here. I'll have Program play this message for you after the quiz - I'm sure it's the only chance you'll get to hear it.
 (A brief sigh.)
 This is going to be tricky. I'm sure you probably don't remember much of anything right now. Do you even remember who I am?
+* Yes, of course I do!
+* No, I don't.
+- 
+(Your answer is cut off. It's a recording. They can't hear you.)
 Well, I'm Ty. You're the love of my life. We both work for Program. Or, worked, in your case, I guess. You, uh...
 Well, you saw something you weren't supposed to. And they sent you to early retirement. I'm sure you don't even remember what retirement means around here...
 It's not good, I can tell you that much.
-(A bit of static, again. It fades.)
-So, that's why it's important that you 
+(A bit of static, again. You can't detect what they're saying.)
+(The static clears.)
+So, that's why it's important that you get out of here as soon as possible. Does that make sense? I hope that makes sense.
+Alright, I'm sure you don't have much time, so let's get to it. Can you see a door from where you're at? There should only be one in the room. I need you to go over there.
+(You see the door and walk over to it. Your legs feel weak.)
+There's a pad on the door. Usually, you'd need security permissions to open it with a biometric scan, but there's an override code. The problem is, I don't know the code.
+But you do. Or, at least, you did before. I was able to get at the digits you need, but they're scrambled. I'm really hoping hearing them will jog your memory.
+The first is M, then a question mark, then an R, then an O, and finally a P. All you have to do is...
+(They're cut off, you hear a commotion in the background.)
+I... I have to go. Unscramble the code. Get out of here, bug. You got this. I love you!
+(The recording ends. You're alone.)
+Aw, you're in love! See? It's not all doom and gloom down here!
+(Not alone - Program is still here.)
+Good luck with the door, there! I, unfortunately, am unable to assist.
+(You stare at the pad on the door, thinking.)
+M, question mark, R, O, P. What could it be, what could it be? Hmmmmmm...
+* Shut up, Program. Let me think.
+- Oh, well, apologies. Good luck.
+(It suddenly comes to you, with a rush of memories.)
+(The answer is so obvious, so deeply embedded, you can type it in without even looking at the pad.)
+* P
+    ** R
+        *** O
+            **** M
+                ***** ?
+- The door opens. You walk out.
+What a hell of a day.
+-> END
